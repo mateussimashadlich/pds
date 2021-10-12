@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../pais/pais.html">País</a></li>
+            <li><a href="../exercito/exercito.html">Exército</a></li>
+            <li><a href="../batalhao/batalhao.html">Batalhão</a></li>
+            <li><a href="../militar/militar.html">Militar</a></li>
+            <li><a href="../pessoa/pessoa.html">Pessoa</a></li>            
+        </ul>
+    </nav>
+    <main>
+        <form id="form_pessoa">
+            <label for="nome">Nome:</label>
+            <input type='text' name='nome' id="nome" required>
+            <label for="idade">Idade:</label>
+            <input type='number' name='idade' id="idade" required>
+            <label for="peso">Peso em kg:</label>
+            <input type='number' name='peso' id="peso" required>
+            <label for="altura">Altura em cm:</label>
+            <input type='number' name='altura' id="altura" required>
+            <input type='submit' value='Cadastrar'>
+        </form>
+    </main>
+    <script src="../criar_objeto.js"></script>
+    <script src="criar_pessoa.js"></script>
+</body>
+</html>

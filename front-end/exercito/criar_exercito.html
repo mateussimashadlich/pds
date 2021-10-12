@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../pais/pais.html">País</a></li>
+            <li><a href="../exercito/exercito.html">Exército</a></li>
+            <li><a href="../batalhao/batalhao.html">Batalhão</a></li>
+            <li><a href="../militar/militar.html">Militar</a></li>        
+            <li><a href="../pessoa/pessoa.html">Pessoa</a></li>                
+        </ul>
+    </nav>
+    <main>
+        <form id="form_exercito">
+            <label for="pais">País:</label>
+            <select name='pais' id="pais" required>
+            </select>
+            <label for="lema">Lema:</label>
+            <input type='text' name='lema' id="lema" required>
+            <label for='ano_fundacao'>Ano de Fundação:</label>
+            <input type='date' name='ano_fundacao' id='ano_fundacao'>
+            <input type='submit' value='Cadastrar'>
+        </form>
+    </main>
+    <script src="../criar_objeto.js"></script>
+    <script src="criar_exercito.js"></script>
+</body>
+</html>

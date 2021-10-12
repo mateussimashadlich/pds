@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../pais/pais.html">País</a></li>
+            <li><a href="../exercito/exercito.html">Exército</a></li>
+            <li><a href="../batalhao/batalhao.html">Batalhão</a></li>
+            <li><a href="../militar/militar.html">Militar</a></li>       
+            <li><a href="../pessoa/pessoa.html">Pessoa</a></li>                 
+        </ul>
+    </nav>
+    <main>
+        <form id="form_militar">
+            <label for="pessoa">Pessoa:</label>
+            <select name='pessoa' id="pessoa" required>
+            </select>
+            <label for="patente">Patente:</label>
+            <select name='patente' id="patente" required>
+            </select>
+            <label for='batalhao_atual'>Batalhão Atual (Opcional):</label>
+            <select name='batalhao_atual' id="batalhao_atual" required>
+            </select>
+            <label for='ano_ingrresso'>Ano de Ingresso</label>
+            <input name='ano_ingresso' id='ano_ingresso' type="date">
+            <input type='submit' value='Cadastrar'>
+        </form>
+    </main>
+    <script src="../criar_objeto.js"></script>
+    <script src="criar_militar.js"></script>
+</body>
+</html>
