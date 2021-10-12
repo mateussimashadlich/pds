@@ -1,6 +1,6 @@
 # PDS
 
-Uma pequena API com alguns templates para interagir com ela.
+Um pequeno projeto com DRF (Django Rest Framework) e alguns templates em HTML e JS para interagir com ele.
 
 <h2>Instalação dos pacotes</h2>
 
